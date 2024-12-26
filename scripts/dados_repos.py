@@ -61,3 +61,19 @@ class DadosRepositorios:
         dados['language'] = linguagens
 
         return dados
+    
+
+amazon_rep = DadosRepositorios('amzn')
+ling_more_used_amzn = amazon_rep.cria_df_linguagens()
+
+netflix_rep = DadosRepositorios('netflix')
+ling_more_used_netflix = netflix_rep.cria_df_linguagens()
+
+spotify_rep = DadosRepositorios('spotify')
+ling_more_used_spotify = spotify_rep.cria_df_linguagens()
+
+# Salvando os dados
+
+ling_more_used_amzn.to_csv('processed_files/linguagens_amzn.csv')
+ling_more_used_netflix.to_csv('processed_files/linguagens_netflix.csv')
+ling_more_used_spotify.to_csv('processed_files/linguagens_spotify.csv')
