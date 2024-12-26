@@ -46,3 +46,4 @@ novo_repo.cria_repo(nome_repo, "Repositório criado automaticamente via script p
 novo_repo.add_arquivo(nome_repo, 'linguagens_amzn.csv', 'processed_files/linguagens_amzn.csv', 'Arquivo de dados das linguagens usadas no github da amazon')
 novo_repo.add_arquivo(nome_repo, 'linguagens_netflix.csv', 'processed_files/linguagens_netflix.csv', 'Arquivo de dados das linguagens usadas no github da Netflix')
 novo_repo.add_arquivo(nome_repo, 'linguagens_spotify.csv', 'processed_files/linguagens_spotify.csv', 'Arquivo de dados das linguagens usadas no github do Spotify')
+novo_repo.add_arquivo(nome_repo, 'linguagens_apple.csv', 'processed_files/linguagens_apple.csv', 'Arquivo de dados das linguagens usadas no github do apple')

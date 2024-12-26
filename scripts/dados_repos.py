@@ -72,8 +72,12 @@ ling_more_used_netflix = netflix_rep.cria_df_linguagens()
 spotify_rep = DadosRepositorios('spotify')
 ling_more_used_spotify = spotify_rep.cria_df_linguagens()
 
+apple_rep = DadosRepositorios('apple')
+ling_more_used_apple = apple_rep.cria_df_linguagens()
+
 # Salvando os dados
 
 ling_more_used_amzn.to_csv('processed_files/linguagens_amzn.csv')
 ling_more_used_netflix.to_csv('processed_files/linguagens_netflix.csv')
 ling_more_used_spotify.to_csv('processed_files/linguagens_spotify.csv')
+ling_more_used_apple.to_csv('processed_files/linguagens_apple.csv')
